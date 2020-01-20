@@ -144,6 +144,7 @@ img{
 .section-read{
   position: relative;
   background: url('../img/nature1.jpeg') no-repeat bottom center/cover; 
+  background-attachment: fixed;
   height: 2000px;
 }
 
