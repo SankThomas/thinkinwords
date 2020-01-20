@@ -53,7 +53,7 @@ img{
 }
 
 .navbar .logo{
-  font-size: 2rem;
+  font-size: 2xrem;
 }
 
 .navbar .nav{
@@ -68,7 +68,7 @@ img{
 }
 
 .navbar .nav a:hover{
-  color: #ffc0cb;
+  color: magenta;
 }
 
 /* Section A */
@@ -129,8 +129,8 @@ img{
 
 .section-read{
   position: relative;
-  background: url('../img/section-b.jpg') no-repeat bottom center/cover;
-  height: 1500px;
+  background: url('../img/nature1.jpeg') no-repeat bottom center/cover; 
+  height: 2000px;
 }
 
 .section-b-read{
@@ -142,7 +142,7 @@ img{
   justify-content: center;
   text-align: center;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1000px;
   padding: 5rem 0;
 }
 
@@ -154,9 +154,36 @@ img{
 .section-b-read h2{
   font-size: 3rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
+.section-next{
+  position: relative; 
+  background: url('...img/nature1.jpeg') no-repeat bottom center/cover;
+  height: 1000px;
+}
+
+.section-b-next{
+  color: #111;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+}
+
+.section-b-next p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.section-b-next h2{
+  font-size: 3rem;
+  margin-top: 1rem;
+}
 /* Section C */
 .section-c .gallery{
   display: grid;
@@ -268,8 +295,38 @@ img{
   border-radius: 30px;
 }
 
+.btn1{
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+.btn2{
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
 .btn:hover{
-  background-color: pink;
+  background-color: magenta;
+}
+
+.btn1:hover{
+  background-color: turquoise;
+}
+
+.btn2:hover{
+  background-color: orangered;
 }
 
 .overlay{
